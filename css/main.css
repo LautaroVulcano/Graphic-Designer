@@ -484,6 +484,7 @@ section {
   position: absolute;
   top: 90%;
   left: 30%;
+  z-index: -10;
 }
 
 .img_mascota-2 {
@@ -1008,6 +1009,17 @@ html > body{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);     /* YO */
   padding: 1em;
 }
+#LinksPortfolio h2{
+  color: #20bf55; 
+  font-size: 32PX; 
+  margin: 0;
+}
+#LinksPortfolio button{
+  margin-left: 10px ;
+}
+#LinksPortfolio div.buttonContainer{
+  display: flex;
+}
 @media only screen and (min-width: 320px) and (max-width:660px){
   html body{  
     margin: 0;
@@ -1036,6 +1048,9 @@ html > body{
 
   html body section.section_trabajos-titulo{
     margin: 20px ;
+  }
+  #LinksPortfolio h2{
+    font-size: 16PX; 
   }
   .v49_6{
     margin-top: 5px;
@@ -1071,6 +1086,7 @@ html > body{
     font-size: 16px;
     margin: 32px 0 0 0;
   }
+
   .section_trabajos .img_mascota-1{
     display: flex;
     top: 105%;
@@ -1094,6 +1110,7 @@ html > body{
   .section_trabajos .img_mascota-1{
     top: 105%;
     left: 13%;
+    
   } 
 }
 
@@ -1113,6 +1130,17 @@ html > body{
 
 @media only screen and (min-width: 1024px) {
   .section_trabajos .img_mascota-1{
-    left: 22% ;
+    left: 25% ;
   } 
+  .section_trabajos .img_mascota-2{
+    left: 70% ;
+  } 
+  #LinksPortfolio{
+    margin: 0;
+  }
+  #sobre-mi div._1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }

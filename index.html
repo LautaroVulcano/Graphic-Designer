@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,8 @@
   <link href="./css/main.css" rel="stylesheet" />
   <title>Lautaro Vulcano</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+  <!-- Animacion AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -145,22 +146,23 @@
     </div>
   </section>
   </div>
-  <section class="section_trabajos">
+  <section class="section_trabajos" id="LinksPortfolio">
     <div class="v57_3">
+      <h2>ESTO NO ES TODO...</h2>
       <p class="v49_50">
         Te invito a ver mi <a href="">Adobe Portfolio</a> o mi perfil de <a href="">Behance</a> para conocer
         mis trabajos de forma completa.
       </p>
-      <div class="v49_51">
+      <div class="buttonContainer">
         <button class="v62_50" href="">Behance</button>
         <button class="v62_50" href="">Adobe Portfolio</button>
       </div>
     </div>
   </section>
   <section class="section_trabajos" id="sobre-mi">
-    <div class="img_mascota-1"></div>
-    <div class="img_mascota-2"></div>
-    <div class="img_mascota-3"></div>
+    <div class="img_mascota-1" data-aos="zoom-in"></div>
+    <div class="img_mascota-2" data-aos="fade-left"></div>
+    <div class="img_mascota-3" data-aos="fade-right"></div>
 
     <div class="v49_126">
       <h3 class="v49_4">ACERCA DE Mí</h3>
@@ -175,12 +177,12 @@
           crear proyectos exitosos además de trabajar solo.
         </p>
       </div>
-      <div class="v49_51_1"><button class="v62_50 button_cv" href="">Descargar CV</button></div>
+      <div class="_1"><button class="v62_50 button_cv" href="">Descargar CV</button></div>
     </div>
   </section>
   <section class="section_trabajos">
     <div class="acerca_de_mi">
-      <div class="v49_88_1">
+      <div class="v49_88_1" data-aos="flip-left">
         <div class="v49_88">
           <div class="circle_green">
             <img class=" icon_circle-music" src="./images/Vector.png">
@@ -196,7 +198,7 @@
           mis actividades diarias.
         </p>
       </div>
-      <div class="v49_88_1">
+      <div class="v49_88_1" data-aos="flip-left">
         <div class="v49_88">
           <div class="circle_green">
             <img class="icon_circle-pasatiempos" src="./images/Vector-3.png">
@@ -211,7 +213,7 @@
           conexión con la naturaleza y creatividad en casa.
         </p>
       </div>
-      <div class="v49_88_1" id="thirdSkill">
+      <div class="v49_88_1" data-aos="flip-left" id="thirdSkill">
         <div class="v49_88">
           <div class="circle_green">
             <img class="icon_circle-habilidades" src="./images/Vector-1.png">
@@ -224,7 +226,7 @@
           fácilmente a cualquier entorno.
         </p>
       </div>
-      <div class="v49_88_1" id="fourthS kill">
+      <div class="v49_88_1" data-aos="flip-left" id="fourthS kill">
         <div class="v49_88">
           <div class="circle_green">
             <img class="icon_circle-personal" src="./images/Vector-2.png">
@@ -245,21 +247,21 @@
     </div>
   </section>
   <section class="section_trabajos" id="contactame">
-    <div class="v49_126">
+    <div class="v49_126" data-aos="fade-left">
       <h3 class="v49_4">CONTÁCTAME</h3>
       <div class="v49_7 v49_7-item"></div>
     </div>
     <article class="v61_20">
       <div class="v61_20_1">
-        <h2 class="v61_21">LAUTARVULCANO@GMAIL.COM</h2>
-        <h2 class="v61_21">+54 9 2494 62-4825</h2>
-        <p class="v49_14 v49_14_1">
+        <h2 class="v61_21" data-aos="fade-right">LAUTARVULCANO@GMAIL.COM</h2>
+        <h2 class="v61_21" data-aos="fade-right">+54 9 2494 62-4825</h2>
+        <p class="v49_14 v49_14_1" data-aos="fade-left">
           ¡Encantado de conocerte! Si deseas mantenerse en contacto, envíame un
           mensaje usando mi correo electrónico o datos de teléfono arriba, o use
           este formulario aquí mismo. Podemos hablar de tus proyectos o en mente,
           de diseño, de videojuegos ni idea, vos mándame y arreglamos.
         </p>
-        <div class="v61_20_1_1">
+        <div class="v61_20_1_1" data-aos="fade-right">
           <p class="v49_6">También podes chusmear mis redes.</p>
           <div class="v62_64">
             <button class="v62_58"> <img src="./images/logo-behance.png" alt="" srcset=""></button>
@@ -269,10 +271,10 @@
         </div>
       </div>
       <form class="v61_20_2" netlify>
-        <input class="v62_45" placeholder="TU NOMBRE" type="text" id="nombre" name="nombre" required>
-        <input class="v62_45" placeholder="CORREO ELECTRONICO" type="email" id="correo" name="correo" required>
-        <textarea class="v62_45" placeholder="TU MENSAJE" id="mensaje" name="mensaje" rows="4" required></textarea>
-        <button class="v62_50" type="submit">¡HABLEMOS!</button>
+        <input class="v62_45" placeholder="TU NOMBRE" type="text" id="nombre" name="nombre" required data-aos="fade-left">
+        <input class="v62_45" placeholder="CORREO ELECTRONICO" type="email" id="correo" name="correo" required data-aos="fade-left">
+        <textarea class="v62_45" placeholder="TU MENSAJE" id="mensaje" name="mensaje" rows="4" required data-aos="fade-left"></textarea>
+        <button class="v62_50" type="submit" data-aos="fade-right" style="margin-bottom: 70px;">¡HABLEMOS!</button>
       </form>
       </div>
     </article>
@@ -280,6 +282,13 @@
 
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="./index.js"></script>
+  <!-- Animacion AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
 </body>
 
 </html>
