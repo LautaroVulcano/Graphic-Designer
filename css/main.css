@@ -139,10 +139,6 @@ section {
 
 .v49_12 {
   justify-self: center;
-  /* border: 7px solid rgba(32, 191, 85, 1);    
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */     /* YO */
-  padding: 1em;
 }
 
 .v49_14 {
@@ -261,12 +257,17 @@ section {
 
 .v62_50 {
   background: rgba(32, 191, 85, 1);
-  padding: 16px 86px;
+  padding: 14px 86px;
   border-radius: 5px;
   font-weight: 900;
   border: none;
   cursor: pointer;
+  margin-bottom: 20px;
 }
+  #sobre-mi button.v62_50{
+    position: relative;
+    top: -20px;
+  }
 
 .v49_66 {
   border: 1.5px solid rgba(255, 255, 255, 1);
@@ -551,10 +552,6 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-  /* body {
-    padding: 0 1.25em;
-  } */     /* YO? */
-
   /* nav */
 
   .v49_69_1 {
@@ -832,7 +829,7 @@ section {
     font-weight: normal;
     margin: 0;
     line-height: normal;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .v49_51_1 {
@@ -985,6 +982,10 @@ section {
 }
 
 /* YO */
+.v57_3{
+  width: 90vw;
+}
+
 .sombreado{
   background-image: linear-gradient(rgba(40, 180, 87, 0.13) 80%, rgb(9, 22, 25));
   /* background-image: radial-gradient(rgba(40, 180, 87, 0.13)1%, rgb(9, 22, 25)); */
@@ -1014,7 +1015,7 @@ html > body{
   margin: 0;
 }
 #LinksPortfolio button{
-  margin-left: 10px ;
+  margin-right: 10px ;
 }
 #LinksPortfolio div.buttonContainer{
   display: flex;
@@ -1068,7 +1069,7 @@ html > body{
   .v49_122{
     width: 90%;
     margin: 0;
-    padding: 5px;
+    padding: 0px 5px 25px 5px;
     display: flex;
     text-align: center;
     justify-self: center;
@@ -1134,6 +1135,10 @@ html > body{
 }
 
 @media only screen and (min-width: 1024px) {
+  #sobre-mi button.v62_50{
+    position: relative;
+    top: -27px;
+  }
   .section_trabajos .img_mascota-1{
     left: 29% ;
   } 
@@ -1151,7 +1156,7 @@ html > body{
   .v49_71_1 {
     background-size: contain;
     width: 236px;
-    height: 313;
+    height: 313px;
   }
   
   #thirdSkill, #fourthSkill{
@@ -1160,6 +1165,10 @@ html > body{
 
 }
 @media only screen and (min-width: 1790px) {
+  #sobre-mi button.v62_50{
+    position: relative;
+    top: -25px !important;
+  }
   .section_trabajos .img_mascota-1{
     left: 34%;
   }
@@ -1189,7 +1198,8 @@ html > body{
     width:  5vw;
     height: 5vw;
   }
-  .v49_71_1 {
+
+  div.v49_71_1 {
     background-size: contain;
     width: 511px;
     height: 694px;
@@ -1245,4 +1255,7 @@ article.v61_20{
 }
 button{
   font-family: 'Alata', Helvetica, sans-serif;
+}
+div form.v61_20_2{
+  margin-bottom: 0;
 }
