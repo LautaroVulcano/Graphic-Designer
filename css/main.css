@@ -841,7 +841,10 @@ section {
   }
 
   .v49_12 {
+    display: flex;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .acerca_de_mi {
@@ -989,6 +992,9 @@ section {
 .sombreado{
   background-image: linear-gradient(rgba(40, 180, 87, 0.13) 80%, rgb(9, 22, 25));
   /* background-image: radial-gradient(rgba(40, 180, 87, 0.13)1%, rgb(9, 22, 25)); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body{
   background-image: linear-gradient( rgb(9, 22, 25)90%,rgba(40, 180, 87, 0.13) );
@@ -1043,11 +1049,10 @@ html > body{
   }
 
   html body section .v49_2{
-    margin-top: 0;
-    margin-left: 15px ;
-    margin-right: 15px;
-    width: 90vw;
+    margin: 0px 3px;
+    width: 90vw; 
   }
+
 
   html body section.section_trabajos-titulo{
     margin: 20px ;
@@ -1258,4 +1263,7 @@ button{
 }
 div form.v61_20_2{
   margin-bottom: 0;
+}
+#numberPhone{
+  letter-spacing: 2px;
 }
