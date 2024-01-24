@@ -289,6 +289,8 @@ section {
 .v61_21 {
   color: rgba(32, 191, 85, 1);
   text-align: left;
+  margin: 0;
+  font-weight: 900;
 }
 
 .v61_20_1 {
@@ -1027,7 +1029,7 @@ html > body{
   display: flex;
 }
 .img_central{
-  margin: 25px 0;
+  margin: 1em 0;
 }
 @media only screen and (min-width: 320px) and (max-width:660px){
   html body{  
@@ -1053,6 +1055,9 @@ html > body{
     width: 90vw; 
   }
 
+  html body section div.v49_126{
+    margin: 0px 0px 30px 0px;
+  }
 
   html body section.section_trabajos-titulo{
     margin: 20px ;
@@ -1068,7 +1073,7 @@ html > body{
     z-index: 100;
   }
   .v61_21{
-     font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .v49_122{
@@ -1140,6 +1145,12 @@ html > body{
 }
 
 @media only screen and (min-width: 1024px) {
+  .section_trabajos-titulo{
+    width: 90vw;
+  }
+  .v49_2{
+    width: 90vw;
+  }
   #sobre-mi button.v62_50{
     position: relative;
     top: -27px;
@@ -1167,9 +1178,24 @@ html > body{
   #thirdSkill, #fourthSkill{
     margin-top: 160px;
   }
+  .v61_21{
+    font-size: 40px;
+  }
+  div#contact form.v61_20_2{
+    width: 30vw;
+  }
 
 }
 @media only screen and (min-width: 1790px) {
+  p, a, button{
+    font-size: 30px !important;
+  }
+  h1.v49_3{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 40px !important;
+  }
   #sobre-mi button.v62_50{
     position: relative;
     top: -25px !important;
@@ -1182,6 +1208,14 @@ html > body{
   }
   .section_trabajos .img_mascota-3{
     left: -3.5%;
+  }
+  div#contact form.v61_20_2 input, div#contact form.v61_20_2 textarea{
+    height: 40px;
+    font-size: 20px;
+  }
+  .v49_71_1{
+    width: 346px;
+    height: 456px;
   }
 }
 
@@ -1266,4 +1300,6 @@ div form.v61_20_2{
 }
 #numberPhone{
   letter-spacing: 2px;
+  margin: 0;
+  font-weight: 900;
 }
