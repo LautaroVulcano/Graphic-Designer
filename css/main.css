@@ -64,6 +64,10 @@ section {
 
 .v49_71 {
   text-align: center;
+  display: flex;  /* 3 cambios */
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .v49_71_1 {
@@ -73,13 +77,10 @@ section {
   height: 240px;
   margin: 0 auto;
 }
-
-
-
 .v49_72 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;  color: #fff;
-  font-size: 22px;
+  font-size: 32px !important;
   margin-bottom: 0.5em;
 }
 
@@ -88,6 +89,7 @@ section {
   flex-direction: row;
   gap: 2em;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -122,7 +124,7 @@ section {
   background: rgba(217, 217, 217, 1);
   border-radius: 2px;
   margin: 16px 0 32px 0;
-  padding: 0;
+  padding: 6px;
 }
 
 .v61_20 {
@@ -664,6 +666,7 @@ section {
   .v49_72 {
     font-size: 10px;
     margin-top: -5px;
+    width: 60vw;
   }
 
   .v49_73 {
@@ -677,9 +680,11 @@ section {
   }
 
   #icon_figma {
-    width: 30px;
+    width: 8.5vw;
+    height: 8.5vw;
+    /* width: 30px;
     height: 30px;
-    margin-top: 5.4px;
+    margin-top: 5.4px; */
   }
 
   /* Trabajos */
@@ -1007,7 +1012,6 @@ section {
 
 .sombreado{
   background-image: linear-gradient(rgba(40, 180, 87, 0.13) 80%, rgb(9, 22, 25));
-  /* background-image: radial-gradient(rgba(40, 180, 87, 0.13)1%, rgb(9, 22, 25)); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1081,6 +1085,9 @@ html > body{
   }
   .v49_6{
     margin-top: 5px;
+  }
+  .v49_7{
+    padding: 3px;
   }
   .v49_87{
     width: 130px;
@@ -1159,6 +1166,10 @@ html > body{
 }
 
 @media only screen and (min-width: 1024px) {
+  #icon_figma{
+    width: 7.5vw;
+    height: 7.5vw;
+  }
   .section_trabajos-titulo{
     width: 90vw;
   }
@@ -1170,10 +1181,12 @@ html > body{
     top: -27px;
   }
   .section_trabajos .img_mascota-1{
-    left: 29% ;
+    /* left: 29% ; */
+    left: 30%;    
+    top: 75%;
   } 
   .section_trabajos .img_mascota-2{
-    left: 70% ;
+    left: 70%;   
   } 
   #LinksPortfolio{
     margin: 0;
@@ -1210,6 +1223,13 @@ html > body{
     font-size: 30px;
   }
 }
+
+@media only screen and (min-width: 1365px){
+  #icon_figma {
+    width: 6vw;
+    height: 6vw;
+  }
+}
 @media only screen and (min-width: 1790px) {
   p, a, button{
     font-size: 30px !important;
@@ -1225,7 +1245,7 @@ html > body{
     top: -40px;
   }
   .section_trabajos .img_mascota-1{
-    left: 34%;
+    left: 35%;
   }
   .section_trabajos .img_mascota-2{
     left: 79%;
@@ -1236,6 +1256,10 @@ html > body{
   div#contact form.v61_20_2 input, div#contact form.v61_20_2 textarea{
     height: 40px;
     font-size: 20px;
+  }
+  #icon_figma {
+    width: 4vw;
+    height: 4vw;
   }
   /* .v49_71_1{
     width: 346px;
@@ -1303,9 +1327,7 @@ html > body{
 #fontGreen{
   color: #20BF55;
 }
-i{
-  color: gray;
-}
+
 div form.v61_20_2{
   width: 100% ;
   margin-bottom: 30px;
@@ -1328,6 +1350,7 @@ div form.v61_20_2{
 #numberPhone{
   letter-spacing: 2px;
   margin: 0;
+  margin-bottom: 32px;
   font-weight: 900;
 }
 
@@ -1335,3 +1358,8 @@ div form.v61_20_2{
   width: 90vw;
 }
 
+div#barrritaContacto{
+  width: 85px;
+  padding: 6px;
+  margin: 6px 0 16px 0
+}
