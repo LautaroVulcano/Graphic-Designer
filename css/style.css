@@ -1381,6 +1381,12 @@ html>body {
         max-height: max-content;
         margin-top: 10px;
     }
+    .v49_72{
+        font-size: 24px !important;
+    }
+    a.v49_62{
+        font-size: 24px !important;
+    }
 }
 
 @media only screen and (min-width: 2100px) {
