@@ -1066,6 +1066,10 @@ html>body {
     display: flex;
 }
 
+#LinksPortfolio div.buttonContainer button a{
+ color: #091619;    
+}
+
 .img_central {
     margin: 1em 0;
 }
@@ -1482,7 +1486,7 @@ div form.v61_20_2 {
     margin: 0;
     font-weight: 900;
     margin-bottom: 32px;
-
+    color: #20BF55;
 }
 
 #contactame {
