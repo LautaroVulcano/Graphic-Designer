@@ -133,7 +133,7 @@ section {
     background: rgba(217, 217, 217, 1);
     border-radius: 2px;
     margin: 16px 0 32px 0;
-    padding: 6px;
+    padding: 2px;
 }
 
 .v61_20 {
@@ -1237,7 +1237,11 @@ html>body {
     .v49_2 {
         width: 90vw;
     }
-
+    .v49_122{
+        min-height: 208px;
+        display: flex;
+        align-items: center;
+    }
     #sobre-mi button.v62_50 {
         position: relative;
         top: -27px;
@@ -1297,7 +1301,7 @@ html>body {
     
     div#barrritaContacto {
         width: 85px;
-        padding: 6px;
+        padding: 2px;
         margin: 6px 0 16px 0
     }
 }
@@ -1306,6 +1310,9 @@ html>body {
     #icon_figma {
       width: 6vw;
       height: 6vw;
+    }
+    .section_trabajos .img_mascota-1 {
+        left: 30%;
     }
 }
 
@@ -1362,6 +1369,11 @@ html>body {
     /* ultimo commit */
 }
 
+@media only screen and (min-width: 1920px) {
+    .section_trabajos .img_mascota-1 {
+        left: 35.5%;
+    }
+}
 @media only screen and (min-width: 2100px) {
     .v49_69 {
         width: 90px;
@@ -1439,6 +1451,7 @@ html>body {
 
 #fontGreen {
     color: #20BF55;
+    font-weight: 900;
 }
 
 div form.v61_20_2 {
