@@ -1310,6 +1310,12 @@ html>body {
     }
 }
 
+@media only screen and (min-width: 1360px){
+    .v49_69_1{
+        width: 50%;
+        justify-content: space-around;
+    }
+}
 @media only screen and (min-width: 1365px){
     #icon_figma {
       width: 6vw;
@@ -1317,6 +1323,10 @@ html>body {
     }
     .section_trabajos .img_mascota-1 {
         left: 30%;
+    }
+    .v49_69_1{
+        width: 50%;
+        justify-content: space-around;
     }
 }
 
