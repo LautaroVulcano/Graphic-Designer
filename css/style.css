@@ -1377,7 +1377,12 @@ html>body {
     .section_trabajos .img_mascota-1 {
         left: 35.3%;
     }
+    .v62_64 button a img{
+        max-height: max-content;
+        margin-top: 10px;
+    }
 }
+
 @media only screen and (min-width: 2100px) {
     .v49_69 {
         width: 90px;
