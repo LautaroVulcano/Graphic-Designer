@@ -273,17 +273,19 @@ section {
 
 .v62_50 {
     background: rgba(32, 191, 85, 1);
-    padding: 14px 86px;
+    width: 368px;
+    height: 70px;
     border-radius: 5px;
     font-weight: 900;
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #sobre-mi button.v62_50 {
     position: relative;
-    top: -20px;
+    top: -15px;
 }
 
 .v49_66 {
@@ -822,16 +824,19 @@ section {
 
     }
 
-    .v62_50 {
-        width: 150px;
-        height: 22px;
-        padding: 16px;
-        border-radius: 5px;
+    .buttonContainer {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-weight: 500;
+        gap: 20px;
     }
+
+    .v62_50 {
+        width: 150px;
+        height: 22px;
+        font-size: 10px;
+    }
+
 
     /* Acerca de mi */
 
@@ -1013,9 +1018,7 @@ section {
         color: #091619;
     }
 
-    .v62_50 {
-        width: 100%;
-    }
+
 }
 
 /* YO */
@@ -1256,7 +1259,7 @@ html>body {
 
     #sobre-mi button.v62_50 {
         position: relative;
-        top: -27px;
+        top: -37px;
     }
 
     .section_trabajos .img_mascota-1 {
@@ -1546,5 +1549,12 @@ div form.v61_20_2 {
 
     .v49_14 {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .buttonContainer {
+        gap: 0;
+        margin-left: 5px;
     }
 }
