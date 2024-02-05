@@ -425,6 +425,9 @@ section {
 }
 
 
+.btn_submit {
+    width: 100%;
+}
 
 /* imgs */
 
@@ -1018,7 +1021,9 @@ section {
         color: #091619;
     }
 
-
+    .btn_submit {
+        width: 100%;
+    }
 }
 
 /* YO */
@@ -1556,5 +1561,30 @@ div form.v61_20_2 {
     .buttonContainer {
         gap: 0;
         margin-left: 5px;
+    }
+
+    .cont_acerca {
+        margin: 16px;
+    }
+
+    .v61_20_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .v62_45 {
+        width: 140%;
+
+    }
+
+    .btn_submit {
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .buttonContainer {
+        gap: 4px;
     }
 }
