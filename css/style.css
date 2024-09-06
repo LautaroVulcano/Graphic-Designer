@@ -63,7 +63,7 @@ section {
 
 .v49_3 {
     color: rgba(239, 240, 240, 1);
-    font-size: 36px;
+    font-size: 32px;
     margin: 1em 0 0 0;
     font-weight: 300;
 }
@@ -79,7 +79,7 @@ section {
 }
 
 .v49_71_1 {
-    background-image: url('../images/yo-DH\ 3.png');
+    background-image: url('../images/logos/LV.png');
     background-repeat: no-repeat;
     width: 181px;
     height: 240px;
@@ -109,14 +109,14 @@ section {
     font-weight: 900;
     margin: 0;
     color: rgba(239, 240, 240, 1);
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .v49_4 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: rgba(217, 217, 217, 1);
-    font-size: 40px;
+    font-size: 32px;
     text-align: left;
     /* margin: 0 0 0.1em 0; */
 }
@@ -174,7 +174,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    padding-top: 4.563em;
+    /* padding-top: 4.563em; */
     padding-right: 9.125em;
     margin-left: 7.875em;
 }
@@ -602,8 +602,7 @@ section {
 @media only screen and (max-width: 600px) {
 
     #trabajos{
-        margin-top: -100px;
-        margin-left: 140px;
+        margin-left: 121px;
     }
 
     .section_trabajos-titulo{
@@ -641,6 +640,8 @@ section {
         margin-left: 1em;
     }
 
+   
+
     .barra_header {
         margin-top: 6px;
     }
@@ -655,7 +656,6 @@ section {
     .v49_3,
     .v49_3_1 {
         font-size: 16px;
-        display: none;
     }
 
     .v49_3 {
@@ -1124,7 +1124,7 @@ html>body {
 
     html body section .v49_2 {
         margin: 0px 3px;
-        width: 90vw;
+        width: 85vw;
     }
 
     html body section div.v49_126 {
@@ -1253,7 +1253,7 @@ html>body {
     }
 
     .v49_2 {
-        width: 90vw;
+        width: 80vw;
     }
 
     .v49_122 {
@@ -1795,3 +1795,56 @@ div form.v61_20_2 {
         gap: 18px;
     }
 }
+
+.text_desktop{
+    display: flex;
+}
+
+.text_mobile{
+    display: none;
+}
+
+.v49_3 {
+    margin-bottom: 0; /* Elimina el margen inferior del h1 */
+}
+
+.v49_3_1 {
+    margin-top: 0; /* Elimina el margen superior del span */
+    display: inline-block; /* Asegura que el span se comporte como un bloque en línea */
+}
+
+
+
+.text_desktop {
+    display: block; /* Cambia a block para que se comporte como un párrafo normal */
+    max-width: 90vw; /* Asegura que el ancho máximo sea el 90% del ancho de la ventana */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    word-wrap: break-word; /* Asegura que las palabras largas se dividan y no desborden */
+    width: 90%; /* Asegura que el ancho sea del 100% del contenedor */
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .text_desktop{
+        display: none;
+    }
+
+    .text_mobile{
+        display: flex;
+    }
+
+    .cont_estoHago {
+        position: relative; 
+    }
+
+    .barra_header {
+        position: absolute; 
+        top: 110%;
+        left: 0; 
+    }
+   
+}
+
+
+  
