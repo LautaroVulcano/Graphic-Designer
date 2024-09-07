@@ -694,6 +694,10 @@ section {
         padding: 0;
     }
 
+    .v49_7_none{
+        display: none;
+    }
+
     .v49_12 {
         border: none;
     }
@@ -810,8 +814,7 @@ section {
     }
 
     .v49_15_item-e {
-        width: 50px;
-        height: 66px;
+        height: 45px;
     }
 
     .v49_15_item-gale {
@@ -1768,7 +1771,7 @@ div form.v61_20_2 {
 }
 
 .v61_20{
-    gap: 16px;
+    gap: 40px;
 }
 
 .buttons-redes{
@@ -1840,7 +1843,7 @@ div form.v61_20_2 {
 
     .barra_header {
         position: absolute; 
-        top: 110%;
+        top: 115%;
         left: 0; 
     }
 
