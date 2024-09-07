@@ -160,7 +160,7 @@ section {
     width: 90vw;
     color: rgba(255, 255, 255, 1);
     font-style: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: "Almarai", sans-serif;
     font-size: 24px;
     margin: 0;
     padding: 0;
@@ -497,11 +497,11 @@ section {
     width: 300px;
     height: 78px;
 }
-
+/* 
 .v49_15_item-e {
     width: 126px;
     height: 166px;
-}
+} */
 
 .v49_15_item-gold {
     width: 222px;
@@ -1820,7 +1820,7 @@ div form.v61_20_2 {
     max-width: 90vw; /* Asegura que el ancho máximo sea el 90% del ancho de la ventana */
     margin: 0 auto; /* Centra el texto horizontalmente */
     word-wrap: break-word; /* Asegura que las palabras largas se dividan y no desborden */
-    width: 90%; /* Asegura que el ancho sea del 100% del contenedor */
+    width: 80%; /* Asegura que el ancho sea del 100% del contenedor */
     margin: 0;
     padding: 0;
 }
@@ -1831,7 +1831,7 @@ div form.v61_20_2 {
     }
 
     .text_mobile{
-        display: flex;
+        display: block;
     }
 
     .cont_estoHago {
@@ -1842,6 +1842,11 @@ div form.v61_20_2 {
         position: absolute; 
         top: 110%;
         left: 0; 
+    }
+
+    .v49_4{
+        margin: 0;
+        padding: 0;
     }
    
 }
