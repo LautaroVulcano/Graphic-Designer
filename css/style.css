@@ -1608,8 +1608,9 @@ div form.v61_20_2 {
 .about_text{
     color: #FFFFFF;
     font-size: 24px;
-    line-height: 26.78px;
+    line-height: 11.16px;
     font-weight: 700;
+    font-family: "Almarai", sans-serif;
 }
 
 .about_text p {
@@ -1630,7 +1631,7 @@ div form.v61_20_2 {
 @media only screen and (max-width: 600px) {
 
     #sobre-mi{
-        margin: 45px 0 0 35%;
+        margin: 25px 0 0 34%;
     }
 
     .about{
@@ -1682,7 +1683,7 @@ div form.v61_20_2 {
     .acerca_de_mi{
         display: flex;
         flex-direction: column;
-        margin-top: 72px;
+        margin-top: 50px;
         gap: 32px;
     } 
 
@@ -1842,7 +1843,21 @@ div form.v61_20_2 {
         padding: 0;
     }
    
+    .text_desktop{
+        width: 90%;
+    }
 }
 
+@media only screen and (min-width: 1280px) {
+    .v49_2 {
+        width: 83vw;
+    }
 
-  
+    .section_trabajos-titulo{
+        width: 93vw;
+    }
+
+    #lo-que-hago{
+        margin: 0 0 0 60px;
+    }
+}
