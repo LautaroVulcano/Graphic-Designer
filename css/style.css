@@ -118,7 +118,7 @@ section {
     color: rgba(217, 217, 217, 1);
     font-size: 32px;
     text-align: left;
-    /* margin: 0 0 0.1em 0; */
+    margin: 0 0 0.1em 0;
 }
 
 .v49_6 {
@@ -546,7 +546,7 @@ section {
 
 #sobre-mi {
     position: relative;
-    margin-top: 0;
+    margin-top: 149px;
     padding-top: 0;
 }
 
@@ -681,7 +681,7 @@ section {
         border-radius: 5px;
         display: flex;
         justify-content: center;
-        width: 320px;
+        /* width: 320px; */
         height: 140px;
     }
 
@@ -840,6 +840,7 @@ section {
     .v49_15_2_1_item,
     .v49_15_2_2_item {
         width: 100%;
+        height: 100%;
     }
 
     .v49_50 {
@@ -915,7 +916,7 @@ section {
         display: flex;
         width: 100%;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
 
     /* .acerca_de_mi {
@@ -1588,12 +1589,7 @@ div form.v61_20_2 {
 
 /* Posiciona el título sobre la imagen */
 .about_cont {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white; /* Aegúrate de que el título sea legible sobre la imagen */
-    width: 1191px;
 }
 
 .about_title{
@@ -1605,7 +1601,7 @@ div form.v61_20_2 {
 
 .about{
     color: #D9D9D9;
-    top: 74px;
+    /* top: 74px; */
     left: 0;
 }
 
@@ -1633,6 +1629,10 @@ div form.v61_20_2 {
 
 @media only screen and (max-width: 600px) {
 
+    #sobre-mi{
+        margin: 45px 0 0 35%;
+    }
+
     .about{
         margin: 0 0 0 40px;
         top: 0;
@@ -1645,12 +1645,7 @@ div form.v61_20_2 {
     .img_about img{
         width: 428px;
         height: 128px;
-    }
-
-    .about_cont{
-        width: 319px;
-        transform: translate(-60%, -50%);
-    }
+    }   
 
     .about_text{
         font-size: 10px;
@@ -1669,6 +1664,10 @@ div form.v61_20_2 {
     .acerca{
         margin: 0;
         padding: 0;
+    }
+
+    .about_cont{
+       /* transform:  translate(18%, 25%); */
     }
 
     .about_cont_title .v49_7{
@@ -1749,7 +1748,8 @@ div form.v61_20_2 {
     } 
 
     .about{
-        width: 100vh;
+        /* width: 100vh; */
+     
     }
 
     .img_about img{
@@ -1803,9 +1803,7 @@ div form.v61_20_2 {
     display: flex;
 }
 
-.text_mobile{
-    display: none;
-}
+
 
 .v49_3 {
     margin-bottom: 0; /* Elimina el margen inferior del h1 */
@@ -1829,14 +1827,6 @@ div form.v61_20_2 {
 }
 
 @media screen and (max-width: 600px) {
-    .text_desktop{
-        display: none;
-    }
-
-    .text_mobile{
-        display: block;
-    }
-
     .cont_estoHago {
         position: relative; 
     }
