@@ -112,8 +112,8 @@ section {
     font-size: 32px;
 }
 
-.v49_4 {
-    font-family: 'Lato', sans-serif;
+.v49_4 {.section_trabajos-titulo
+    font-family: "Almarai", sans-serif;
     font-weight: 700;
     color: rgba(217, 217, 217, 1);
     font-size: 32px;
@@ -1854,10 +1854,14 @@ div form.v61_20_2 {
     }
 
     .section_trabajos-titulo{
-        width: 93vw;
+        width: 90vw;
     }
 
     #lo-que-hago{
         margin: 0 0 0 60px;
     }
+}
+
+.section_trabajos-titulo{
+    width: 92vw;
 }
