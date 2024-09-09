@@ -120,8 +120,7 @@ section.about {
     font-size: 32px;
 }
 
-.v49_4 {.section_trabajos-titulo
-    font-family: "Almarai", sans-serif;
+.v49_4 {
     font-weight: 700;
     color: rgba(217, 217, 217, 1);
     font-size: 32px;
@@ -853,7 +852,7 @@ section.about {
 
     .v49_50 {
         font-size: 10px;
-        margin: 0 0 6px 0;
+        margin: 0 0 12px 0;
     }
 
     .v49_50 a {
@@ -1617,8 +1616,8 @@ div form.v61_20_2 {
     color: #FFFFFF;
     font-size: 24px;
     line-height: 26.6px;
-    font-weight: 700;
-    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-family: "Almarai", sans-serif;
 }
 
 .about_text p {
@@ -1708,12 +1707,12 @@ div form.v61_20_2 {
     }
 
     .v49_89{
-        font-size: 24px;
+        font-size: 22px;
         text-align: center;      
     }
 
     .v49_87{
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
         height: 50%;
         text-align: center;
@@ -1883,6 +1882,11 @@ div form.v61_20_2 {
     #lo-que-hago{
         margin: 0 0 0 100px;
     }
+
+    #sobre-mi{
+        margin: 149px 0 0 7.875em;
+    }
+
 }
 
 @media only screen and (min-width: 1920px) {
@@ -1896,7 +1900,7 @@ div form.v61_20_2 {
         width: 86vw;
     }
 
-    .section_trabajos{
+    #sobre-mi{
         margin-left: 9.875em;
 
     }
