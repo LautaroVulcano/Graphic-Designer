@@ -168,7 +168,7 @@ section.about {
     width: 90vw;
     color: rgba(255, 255, 255, 1);
     font-style: normal;
-    font-family: "Almarai", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 24px;
     margin: 0;
     padding: 0;
@@ -1618,7 +1618,7 @@ div form.v61_20_2 {
     font-size: 24px;
     line-height: 26.6px;
     font-weight: 700;
-    font-family: "Almarai", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .about_text p {
@@ -1920,8 +1920,12 @@ div form.v61_20_2 {
     .v49_2 {
         width: 90vw;
     }
-    
+
     .buttons-redes{
         margin-top: 0;
+    }
+
+    .about_text{
+        line-height: 14px;
     }
 }
