@@ -32,6 +32,14 @@ section {
     margin: 6em 0;
 }
 
+section.about {
+    margin:  0 0 0 9.875em;
+}
+
+.acerca{
+    margin-top: 149px;
+}
+
 /* Nav */
 
 .v49_2 {
@@ -284,7 +292,7 @@ section {
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 20px;
 }
 
@@ -863,7 +871,7 @@ section {
 
     .buttonContainer {
         display: flex;
-        gap: 20px;
+        /* gap: 20px; */
     }
 
     .v62_50 {
@@ -1102,7 +1110,7 @@ html>body {
         width:310px;
     }
 
-    .button_cv{
+    .button_adobe{
         display: none;
     }
 
@@ -1631,7 +1639,7 @@ div form.v61_20_2 {
 @media only screen and (max-width: 600px) {
 
     #sobre-mi{
-        margin: 45px 0 0 36%;
+        margin: 56px 0 0 36%;
     }
 
     .about{
@@ -1659,7 +1667,7 @@ div form.v61_20_2 {
 
     .section_trabajos.acerca {
         padding: 0;
-        margin: 0;
+        margin: 56px 0 0 0;
     }
 
     .acerca{
@@ -1683,7 +1691,7 @@ div form.v61_20_2 {
     .acerca_de_mi{
         display: flex;
         flex-direction: column;
-        margin-top: 56px;
+        /* margin-top: 56px; */
         gap: 32px;
     } 
 
@@ -1778,6 +1786,7 @@ div form.v61_20_2 {
 .buttons-redes{
     display: flex;
     gap: 55px;
+    margin-top: 36px;
 }
 
 
@@ -1878,14 +1887,28 @@ div form.v61_20_2 {
 
 @media only screen and (min-width: 1920px) {
     .section_trabajos-titulo{
-        width: 93vw;
+        width: 90.5vw;
     }
     #lo-que-hago{
-        margin: 0 0 0 50px;
+        margin: 0 0 0 95px;
     }
     .v49_2 {
         width: 86vw;
     }
+
+    .section_trabajos{
+        margin-left: 9.875em;
+
+    }
+
+    .about_text{
+        line-height: 31.6px;
+    }
+
+    form.v61_20_2 textarea {
+        height: 140px !important;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1896,5 +1919,9 @@ div form.v61_20_2 {
 
     .v49_2 {
         width: 90vw;
+    }
+    
+    .buttons-redes{
+        margin-top: 0;
     }
 }
