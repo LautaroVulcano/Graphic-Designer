@@ -285,6 +285,7 @@ section.about {
 }
 
 .v62_50 {
+    font-family: "Lato", sans-serif;
     background: rgba(32, 191, 85, 1);
     width: 294px;
     height: 60px;
@@ -852,7 +853,7 @@ section.about {
 
     .v49_50 {
         font-size: 10px;
-        margin: 0 0 12px 0;
+        margin: 12px 0 12px 0;
     }
 
     .v49_50 a {
@@ -1109,7 +1110,7 @@ html>body {
         width:310px;
     }
 
-    .button_adobe{
+    .button_behance{
         display: none;
     }
 
